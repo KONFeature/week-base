@@ -1,0 +1,30 @@
+name: week_base
+description: App to plan weekly recursive task
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS Icon
+  cupertino_icons: ^1.0.2
+
+  # Logger (ease the logger logic of flutter)
+  logger: ^1.0.0
+
+  # Catcher (ease the fatal exception handling)
+  catcher: ^0.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
